@@ -26,7 +26,7 @@ FRONTEND_DIR = BASE_DIR / 'profile-fe'
 SECRET_KEY = 'django-insecure-1@$!2p)(gs7v3z87ouq8ea)9^-39!tt55yo&_uoo@zwe3#v7l*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 # Application definition
