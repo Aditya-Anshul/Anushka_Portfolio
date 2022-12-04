@@ -1,0 +1,12 @@
+<Fade left>
+              <a
+                href="https://course.0939.workers.dev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={classes.drawerItem}>
+                  <MdPhone className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>MyResources</span>
+                </div>
+              </a>
+            </Fade>
