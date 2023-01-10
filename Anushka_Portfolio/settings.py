@@ -143,7 +143,7 @@ MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [FRONTEND_DIR / 'build' / 'static']
 
-STATIC_ROOT = BACKEND_DIR / 'static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 MEDIA_ROOT = BACKEND_DIR / 'media'
 
